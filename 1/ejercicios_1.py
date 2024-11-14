@@ -32,4 +32,9 @@ print( 2 * numbero_pi * radio)
 
 numero_pi = 3.14159
 radio = int(input("ingrese el radio:"))
-print(numero_pi * radio)
+print(numero_pi * radio * 2)
+
+""" escriba un programa que solicite un valor entero por pantalla y presente en la terminal del editor el valor incrementado en un 100%"""
+
+valor_incrementar = int(input("cargue un valor"))
+print(valor_incrementar + (10/100 * valor_incrementar))
