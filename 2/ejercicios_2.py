@@ -39,4 +39,15 @@ mi_lista.extend([valor_1, valor_2, suma_valores])
 print("Esta es mi Lista: ", mi_lista)
 
 
+"4) Realice un programa que consulte la edad y en caso de que el valor ingresado supere la fecha de jubilacion, presente en la terminal el mensaje 'Ya esta en edad para jublarse', en caso contrario presente 'Aun esta en edad para trabajar'."
+
+edad = int(input("ingrese su edade: "))
+
+if edad >= 65:
+    print("Ya esta en edad para jubilarse")
+else:
+    print("Aun esta en edad para trabajar")
+
+
+
 
