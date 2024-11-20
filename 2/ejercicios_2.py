@@ -49,5 +49,10 @@ else:
     print("Aun esta en edad para trabajar")
 
 
+"5) Rrealice nuevamente los ejercicios de la unidad 1 (3,4 y 5), pero tratando de utilizar una funcion, de forma que la operacion se realice dentro de la misma."
 
+def sacar_circunferencua(radio):
+    numero_pi = 3.14159
+    print("esta es la circunferencia: ", numero_pi * radio * 2)
 
+sacar_circunferencua(51)
